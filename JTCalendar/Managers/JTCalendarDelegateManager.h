@@ -47,6 +47,7 @@
 // Day view
 
 - (void)prepareDayView:(UIView<JTCalendarDay> *)dayView;
+- (void)didTouchDayView:(UIView<JTCalendarDay> *)dayView;
 - (void)prepareWeekNumberView:(UIView<JTCalendarDay> *)weekNumberView;
 - (void)didTouchWeekNumberView:(UIView<JTCalendarDay> *)weekNumberView;
 
