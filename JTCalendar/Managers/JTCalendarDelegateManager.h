@@ -34,7 +34,6 @@
 - (UIView<JTCalendarWeekDay> *)buildWeekDayView;
 - (UIView<JTCalendarWeek> *)buildWeekView;
 
-- (void)prepareDayView:(UIView<JTCalendarDay> *)weekdayView;
 - (void)prepareWeekDayView:(UIView *)weekdayView;
 - (void)didTouchWeekDayView:(UIView *)weekdayView;
 
@@ -48,7 +47,6 @@
 // Day view
 
 - (void)prepareDayView:(UIView<JTCalendarDay> *)dayView;
-- (void)didTouchDayView:(UIView<JTCalendarDay> *)dayView;
 - (void)prepareWeekNumberView:(UIView<JTCalendarDay> *)weekNumberView;
 - (void)didTouchWeekNumberView:(UIView<JTCalendarDay> *)weekNumberView;
 
