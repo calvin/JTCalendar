@@ -29,6 +29,7 @@
     _weekDayFormat = JTCalendarWeekDayFormatShort;
     _weekModeEnabled = NO;
     _weekNumber = YES;
+    _pageViewWeekModeNumberOfWeeks = 1;
 }
 
 @end
